@@ -60,6 +60,19 @@ The CNN uses a sequential architecture optimized for grayscale image classificat
 
 ---
 
+### 📝 Model Evaluation
+
+The final model (`parkinsons_detection_model.h5`) was assessed on the independent Test Set (348 images), yielding the following results:
+
+| Metric | Result |
+| :--- | :--- |
+| **Test Accuracy** | $\mathbf{95.69\%}$ |
+| **Precision (Parkinson's Class)** | $\mathbf{98\%}$ |
+| **Recall (Parkinson's Class)** | $\mathbf{93\%}$ |
+
+The high precision suggests the model is very good at avoiding false alarms (minimizing **False Positives**), while the strong recall ensures that very few actual Parkinson's cases are missed (minimizing **False Negatives**).
+
+
 ### ⚙️ How to Run the Application
 
 #### 1. Setup
@@ -71,14 +84,3 @@ git clone <repository-link>
 cd Parkinsons-Disease-Detection
 pip install -r requirements.txt
 
-### 📝 Model Evaluation
-
-The final model (`parkinsons_detection_model.h5`) was assessed on the independent Test Set (348 images), yielding the following results:
-
-| Metric | Result |
-| :--- | :--- |
-| **Test Accuracy** | $\mathbf{95.69\%}$ |
-| **Precision (Parkinson's Class)** | $\mathbf{98\%}$ |
-| **Recall (Parkinson's Class)** | $\mathbf{93\%}$ |
-
-The high precision suggests the model is very good at avoiding false alarms, while the strong recall ensures that very few actual Parkinson's cases are missed.
