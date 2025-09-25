@@ -1,4 +1,4 @@
-## 🧠 Parkinson's Disease Detection via Spiral Drawings (CNN)
+## Parkinson's Disease Detection via Spiral Drawings (CNN)
 
 This project implements a **Convolutional Neural Network (CNN)** for the automated detection of **Parkinson's Disease (PD)** using digitized images of hand-drawn spirals. The application is deployed using **Streamlit** for a user-friendly web interface, allowing individuals to upload a spiral drawing for immediate prediction.
 
