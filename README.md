@@ -83,4 +83,6 @@ Clone the repository and install the required Python libraries (you may need to 
 git clone <repository-link>
 cd Parkinsons-Disease-Detection
 pip install -r requirements.txt
+python train.py
+streamlit run app.py
 
