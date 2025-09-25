@@ -1,0 +1,24 @@
+## Parkinson's Spiral Drawing Classification dataset
+
+This model uses a dataset of Parkinson's spiral drawings (Roboflow v3).
+
+- **Total Images:** 8640
+- **Classes:** Healthy and Parkinson
+
+## Model Input Requirements
+
+**All images are PREPROCESSED as follows:**
+1.  **Resized:** 640 x 640 pixels.
+2.  **Color:** Grayscale (Single Channel).
+
+**Keras Input Shape:** (640, 640, 1)
+
+## Split Ratio:
+- Train Set: 90% (7758 Images)
+- Validation Set: 6% (534 Images)
+- Test Set: 4% (348 Images)
+
+
+## Download Link (Original Source):
+
+https://universe.roboflow.com/parkinson-classification/my-first-project-etocp/dataset/3
